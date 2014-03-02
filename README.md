@@ -1,3 +1,3 @@
-## Uploade files using rails
+## Upload files using rails
 
 Just a sample.
