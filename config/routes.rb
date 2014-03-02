@@ -13,7 +13,11 @@ Uploader::Application.routes.draw do
 
   # Example resource route (maps HTTP verbs to controller actions automatically):
   resources :images
-
+  resources :images do
+    member do
+      get 'show_image'
+    end
+  end
   # Example resource route with options:
   #   resources :products do
   #     member do
