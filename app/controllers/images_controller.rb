@@ -24,7 +24,6 @@ class ImagesController < ApplicationController
       flash[:success] = "画像を保存しました。"
       redirect_to @image
     else
-      @images = Image.all
       flash[:error] = "画像を保存できませんでした。"
     end
   end
