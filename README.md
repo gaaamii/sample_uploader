@@ -1,3 +1,3 @@
 ## Upload files using rails
 
-Just a sample.
+Ruby on Railsで画像をDBに保存するサンプル
